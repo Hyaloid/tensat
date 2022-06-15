@@ -1,5 +1,5 @@
 docker run --gpus all --pid=host --net=host \
---name try \
+--name test \
 -it \
 --mount type=bind,source="/home/zhaohs/tensat_test",target=/usr/tensat \
 --mount type=bind,source="/home/zhaohs/egg",target=/usr/egg \
